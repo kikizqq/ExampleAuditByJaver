@@ -1,6 +1,7 @@
 package com.aerothinker.plandb.repository;
 
 import com.aerothinker.plandb.domain.PlanInfoStepAtch;
+import org.javers.spring.annotation.JaversSpringDataAuditable;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Repository;
  */
 @SuppressWarnings("unused")
 @Repository
+@JaversSpringDataAuditable
 public interface PlanInfoStepAtchRepository extends JpaRepository<PlanInfoStepAtch, Long>, JpaSpecificationExecutor<PlanInfoStepAtch> {
 
 }

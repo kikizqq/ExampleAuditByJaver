@@ -135,5 +135,6 @@
     "fluentMethods": true,
     "clientRootFolder": "",
     "applications": "*",
-    "angularJSSuffix": "sdmSuffix"
+    "angularJSSuffix": "sdmSuffix",
+    "enableEntityAudit": true
 }
