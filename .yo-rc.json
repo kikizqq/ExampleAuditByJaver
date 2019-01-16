@@ -1,0 +1,36 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.aerothinker.plandb",
+            "nativeLanguage": "zh-cn"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "plandb",
+        "packageName": "com.aerothinker.plandb",
+        "packageFolder": "com/aerothinker/plandb",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NDc2ODY5MTczM2QyNDcyYWFlNWZkYjg2OTlhZjBkYjQ1ODBkZWQ2NzA0ZDc0NmVhM2JhMTJhMjFkYjg0ZWE3YTYwMjYyNTc5YmI2MzFiZmIxMWU1OTU3NzNkMzk5Yjc5NGI4YzMyYjg5NzY2OGYxMGE4NDY3ZDlkNzQ5ZjkwOWE=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "zh-cn",
+        "languages": ["zh-cn", "en"]
+    }
+}
